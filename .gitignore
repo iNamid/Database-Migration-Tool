@@ -1,0 +1,30 @@
+# Exclude virtual environments
+venv/
+
+# Exclude Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Exclude environment variables (e.g., database credentials)
+.env
+
+# Exclude logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Exclude Jupyter Notebook checkpoints (if using Jupyter for debugging)
+.ipynb_checkpoints/
+
+# Exclude SQLite database files (if used for local testing)
+*.sqlite3
+*.db
+
+# Exclude OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
