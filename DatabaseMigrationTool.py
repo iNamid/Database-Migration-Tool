@@ -10,6 +10,7 @@ import time
 class DBTypeMapper:
     """Handle data type mapping between PostgreSQL and MySQL."""
     
+
     PG_TO_MYSQL = {
         'character varying': 'varchar',
         'timestamp without time zone': 'datetime',
@@ -21,7 +22,8 @@ class DBTypeMapper:
         'json': 'json',
         'jsonb': 'json',
         'date': 'date',
-        'time without time zone': 'time'
+        'time without time zone': 'time' 
+    
     }
     
     MYSQL_TO_PG = {
